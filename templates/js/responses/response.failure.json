@@ -1,0 +1,75 @@
+{
+    "failure_400": {
+        "apiVersion": "1.0",
+        "message": "Bad Request!",
+        "code": 400,
+        "data": {
+            "items": []
+        }
+    },
+    "failure_401": {
+        "apiVersion": "1.0",
+        "message": "Unauthorized!",
+        "code": 401,
+        "data": {
+            "items": []
+        }
+    },
+    "failure_403": {
+        "apiVersion": "1.0",
+        "message": "Forbidden!",
+        "code": 403,
+        "data": {
+            "items": []
+        }
+    },
+    "failure_404": {
+        "apiVersion": "1.0",
+        "message": "Not Found!",
+        "code": 404,
+        "data": {
+            "items": []
+        }
+    },
+    "failure_405": {
+        "apiVersion": "1.0",
+        "message": "Method Not Allowed!",
+        "code": 405,
+        "data": {
+            "items": []
+        }
+    },
+    "failure_500": {
+        "apiVersion": "1.0",
+        "message": "Internal Server Error!",
+        "code": 500,
+        "data": {
+            "items": []
+        }
+    },
+    "failure_502": {
+        "apiVersion": "1.0",
+        "message": "Bad Gateway!",
+        "code": 502,
+        "data": {
+            "items": []
+        }
+    },
+    "failure_504": {
+        "apiVersion": "1.0",
+        "message": "Gateway Time-out!",
+        "code": 504,
+        "data": {
+            "items": []
+        }
+    },
+    "failure_511": {
+        "apiVersion": "1.0",
+        "message": "Network Authentication Required!",
+        "code": 511,
+        "data": {
+            "items": []
+        }
+    }
+
+}

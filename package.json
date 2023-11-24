@@ -1,0 +1,126 @@
+{
+  "_from": "express-generator1",
+  "_id": "express-generator1@0.0.4",
+  "_inBundle": false,
+  "_integrity": "sha512-yLic2qdF3P3OhFjm6Ghk8GqMPncOu84W7/Es1QKchS5I47oa01HKeS0oMm+OFwKFMkvFEzfJ8n+CwKARbeZPyQ==",
+  "_location": "/express-generator1",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "express-generator1",
+    "name": "express-generator1",
+    "escapedName": "express-generator1",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/express-generator1/-/express-generator1-0.0.3.tgz",
+  "_shasum": "d26d78f5dc00bf15fed4f3cc931b869bb974ad62",
+  "_spec": "express-generator1",
+  "_where": "D:\\Projects\\GitHub Packages\\Express-Skeleton",
+  "author": {
+    "name": "Muhammad Arqam",
+    "email": "arqam.applynow@gmail.com"
+  },
+  "bin": {
+    "express": "bin/express-cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/expressjs/generator/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Muhammad Arqam",
+      "email": "arqam.applynow@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "aws-sdk": "^2.783.0",
+    "axios": "^0.20.0",
+    "bcrypt": "^5.0.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "commander": "2.15.1",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "curl": "^0.1.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "ejs": "2.6.1",
+    "express": "~4.16.1",
+    "expressjs-api-explorer": "^1.0.2",
+    "file-system": "^2.2.2",
+    "http-errors": "~1.6.3",
+    "jade": "^1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "minimatch": "3.0.4",
+    "mkdirp": "0.5.1",
+    "mocha": "^8.2.1",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.16",
+    "nodemon": "^2.0.4",
+    "pg": "^8.4.2",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.3",
+    "sorted-object": "2.0.1",
+    "swagger-ui-express": "^4.1.4"
+  },
+  "deprecated": false,
+  "description": "Express' application generator",
+  "devDependencies": {
+    "eslint": "5.16.0",
+    "eslint-config-standard": "12.0.0",
+    "eslint-plugin-import": "2.17.2",
+    "eslint-plugin-node": "8.0.1",
+    "eslint-plugin-promise": "4.1.1",
+    "eslint-plugin-standard": "4.0.0",
+    "mocha": "6.1.4",
+    "rimraf": "2.6.3",
+    "supertest": "4.0.2",
+    "tree-kill": "1.2.1",
+    "uid-safe": "2.1.5",
+    "validate-npm-package-name": "3.0.0"
+  },
+  "engines": {
+    "node": ">= 0.10",
+    "npm": "6.14.8"
+  },
+  "files": [
+    "LICENSE",
+    "bin/",
+    "templates/"
+  ],
+  "homepage": "https://github.com/expressjs/generator#readme",
+  "keywords": [
+    "express",
+    "framework",
+    "sinatra",
+    "web",
+    "rest",
+    "restful",
+    "router",
+    "app",
+    "api"
+  ],
+  "license": "MIT",
+  "main": "bin/express-cli.js",
+  "name": "express-generator1",
+  "preferGlobal": true,
+  "scripts": {
+    "lint": "eslint .",
+    "test-ci": "mocha --reporter spec --check-leaks test/",
+    "start": "set NODE_ENV=dev && nodemon ./bin/www",
+    "test": "mocha ./__tests__/acceptance",
+    "_start": "set NODE_ENV=dev && pm2 start ./bin/www_3005",
+    "_restart": "set NODE_ENV=dev && pm2 restart ./bin/www_3005",
+    "_stop": "set NODE_ENV=dev && pm2 stop ./bin/www_3005"
+  },
+  "version": "0.0.24"
+}
